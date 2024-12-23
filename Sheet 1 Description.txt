@@ -1,0 +1,162 @@
+Here is the description of each function:
+
+sum
+Purpose:
+Calculates the sum of all numbers between two given values x and y (exclusive).
+
+Input:
+Two integers, x and y.
+Output:
+Returns the sum of integers between x and y (excluding the endpoints).
+Behavior:
+The function iterates over the numbers between x and y, summing them.
+2. maxMin
+Purpose:
+Finds the maximum and minimum values entered by the user.
+
+Input:
+A series of integers entered by the user.
+Output:
+Prints the maximum and minimum values entered by the user.
+Behavior:
+The function collects user input and compares the values to determine the highest and lowest numbers.
+3. SUM
+Purpose:
+Calculates the sum of a series of numbers input by the user.
+
+Input:
+A series of integers entered by the user.
+Output:
+Returns the total sum of the input numbers.
+Behavior:
+The function prompts the user for numbers and adds them together until the user signals completion.
+4. multiply1
+Purpose:
+Multiplies two numbers without using the multiplication operator (*).
+
+Input:
+Two integers, x and y.
+Output:
+Returns the product of x and y.
+Behavior:
+The function uses repeated addition to simulate multiplication by adding x to itself y times.
+5. multiply2
+Purpose:
+Multiplies two numbers without using the multiplication operator (*) using an alternative method.
+
+Input:
+Two integers, x and y.
+Output:
+Returns the product of x and y.
+Behavior:
+The function uses a different approach (such as bitwise shifting) to perform multiplication.
+6. multiply3
+Purpose:
+Recursively multiplies two numbers without using the multiplication operator (*).
+
+Input:
+Two integers, x and y.
+Output:
+Returns the product of x and y.
+Behavior:
+The function uses recursion to repeatedly add x to itself y times.
+7. reminder
+Purpose:
+Calculates the remainder of the division of two numbers without using the modulus operator (%).
+
+Input:
+Two integers, x and y.
+Output:
+Prints the remainder of x divided by y.
+Behavior:
+The function calculates the remainder using subtraction or bitwise operations.
+8. powerNum
+Purpose:
+Calculates the power of a number raised to a specified exponent.
+
+Input:
+Two integers: num (the base) and power (the exponent).
+Output:
+Returns the result of num raised to the power power.
+Behavior:
+The function multiplies num by itself power times.
+9. factorial
+Purpose:
+Calculates the factorial of a number.
+
+Input:
+An integer num.
+Output:
+Returns the factorial of num.
+Behavior:
+The function multiplies all integers from 1 to num to compute the factorial.
+10. isPrime
+Purpose:
+Checks if a number is prime.
+
+Input:
+An integer num.
+Output:
+Prints whether num is a prime number.
+Behavior:
+The function checks if num is divisible by any integer from 2 up to the square root of num.
+11. isPerfectSquare
+Purpose:
+Checks if a number is a perfect square.
+
+Input:
+An integer num.
+Output:
+Prints whether num is a perfect square.
+Behavior:
+The function checks if the square root of num is an integer.
+12. isPerfectNumber
+Purpose:
+Checks if a number is a perfect number, where the sum of its divisors (excluding itself) equals the number.
+
+Input:
+An integer num.
+Output:
+Prints whether num is a perfect number.
+Behavior:
+The function sums the divisors of num and checks if the sum equals num.
+13. baseOfTwo1
+Purpose:
+Checks if a number is a power of two using Method 1.
+
+Input:
+An integer num.
+Output:
+Prints whether num is a power of two.
+Behavior:
+The function uses bitwise operations to check if num is a power of two.
+14. baseOfTwo2
+Purpose:
+Checks if a number is a power of two using Method 2.
+
+Input:
+An integer num.
+Output:
+Prints whether num is a power of two.
+Behavior:
+The function uses division or logarithmic operations to determine if num is a power of two.
+15. digitNum
+Purpose:
+Calculates the sum of the digits of a given number.
+
+Input:
+An integer num.
+Output:
+Prints the sum of the digits of num.
+Behavior:
+The function extracts each digit of num and sums them.
+16. holesNum
+Purpose:
+Calculates the number of "holes" in a given number.
+
+Input:
+An integer num.
+Output:
+Prints the number of holes in the digits of num.
+Behavior:
+The function checks each digit of num and counts how many "holes" are present based on a predefined mapping (e.g., 0, 4, 6, 9 each have 1 hole, and 8 has 2 holes).

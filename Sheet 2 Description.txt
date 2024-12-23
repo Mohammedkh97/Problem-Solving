@@ -1,0 +1,21 @@
+Here is the text from the functions you requested:
+
+1. Write a program that reads the radius of a circle and calculates the area and circumference.
+2. Write a C program to take a number and a character from the user. If the number is even, print the same character. If the number is odd, print the other case of the character (a->A, B->b) and so on...
+3. Write a program to reverse a number in decimal representation (1205->5021).
+4. Write a program to count the number of 1’s in an unsigned 32-bit integer.
+5. Write a program to print the binary representation of a number. Try not to print zeros on the left (5->print 101).
+6. Write C code to reverse bits in an 8-bit number (149->10010101 return 169->10101001), (5->00000101 return 160->10100000).
+7. Write C code to sum numbers from 1 to 100 (without a loop).
+8. Write a full C program to take 4 choices from the user:
+   1. Set bit.
+   2. Clear bit.
+   3. Toggle bit.
+   4. Read bit.
+9. Write a C function to take the number of lines and draw a pattern with '*' (e.g., inverted triangle, triangle, X pattern, completed pyramid).
+10. Write a C function to count the max number of zeros between two ones in the binary representation of a number (296384-> {1001000010111000000} return 4).
+11. Given two integers: L and R, find the maximal value of A xor B where A and B satisfy the condition L <= A <= B <= R.
+12. Given two integers: L and R, Find the maximal value of A xor B where A and B satisfy
+the condition L =< A <= B <= R
+Constrains: 1 <= L <= R <= 1000 Input format: the input contains two lines first line contains L and next
+line contains R. Output format: The maximum value of Axor B.
